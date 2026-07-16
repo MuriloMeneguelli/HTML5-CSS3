@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Responsiva</title>
+    <style>
+        header {
+            text-align: center;
+        }
+
+        body {
+        overflow-x: hidden;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resumão de Imagens Responsivas</h1>
+        <p>Abaixo verás duas imagens se adaptando sozinhas ao tamanho do navegador: </p>
+    </header>
+    <main>
+        <section>
+            
+            <picture>
+                <!--Panorama Adaptativo para todos os dispositivos-->
+                <source media="(max-width: 709px)" srcset="panorama-600.jpg" width="398px">
+                <source media="(max-width: 1009px)" srcset="panorama-m.jpg" width="700px">
+                <img src="panorama.jpg" alt="" width="1000px">
+            </picture>
+        </section>
+        <hr>
+        <section>
+            <img src="JC-g.jfif" alt="Imagem de Jesus Cristo responsiva" srcset="JC-p.jfif 755w, JC-m.jfif 1295w, JC-g.jfif 1985w">
+        </section>
+    </main>
+</body>
+</html>
