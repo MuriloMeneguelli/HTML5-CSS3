@@ -11,7 +11,14 @@
 
 
  /*
- Shorthand para todas essas configurações*/
+ Shorthand para todas essas configurações
+ font-style: 
+ font-variant:
+ font-weight:
+ font-size: (obrigatória)
+ line-height:
+ font-family: (obrigatória)
+ */
 body {
     font: italic 600 16px / 4 sans-serif;
 }
