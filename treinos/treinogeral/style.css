@@ -36,6 +36,15 @@ header > h1 {
     line-height: 32px;
 }
 
+.projetos {
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 32px;
+}
+
 h1:hover {
     color: red;
 }
