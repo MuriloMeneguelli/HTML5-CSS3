@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Nasalization";
+    src: url("fonte/Nasalization.otf") format("opentype");
+    font-weight: normal;
+    
+}
