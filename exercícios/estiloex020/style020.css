@@ -8,16 +8,10 @@
     em, ex, rem, vw, vh, %
  */
 
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
-
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 
-h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ /*
+ Shorthand para todas essas configurações*/
+body {
+    font: italic 600 16px / 4 sans-serif;
 }
