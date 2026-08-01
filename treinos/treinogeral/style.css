@@ -7,6 +7,31 @@
     
 }
 
+* {
+    margin: 0px;
+}
+
 body {
     font-family: "Nasalization";
+}
+
+header {
+    background: black url("image/nasa.webp") center center / 500px no-repeat  ;
+    
+    height: 400px;
+}
+
+header > h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+
+}
+.quem-somos {
+    margin-top: 40px;
+    line-height: 32px;
+}
+
+h1:hover {
+    color: red;
 }
