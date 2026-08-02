@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+h1#estilizado {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.301);
+    background-color: rgb(163, 163, 163);
+    border-radius: 15px;
+}
+
+h1#estilizado:hover{
+    color: rebeccapurple;
+}
+
+
+.deslocado {
+    text-align: right;
+}
+
+
+.centralizado {
+    background-color: brown;
+    text-align: center;
+    text-decoration: double;
+    border-radius: 18px;
+}
