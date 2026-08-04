@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt*br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        input:focus {
+            background-color: black;
+            color: white;
+        }
+
+        div:hover{
+            background-color: grey;
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.822);
+            color: white;
+            height: 200px;
+            width: 600px;
+        }       
+
+        a:visited{
+            color: rgb(109, 0, 252);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Abaixo usei algumas pseudo classes (as que eu julguei importante)</h1>
+    <h2>Pseudo classe: <code>:focus</code></h2>
+    <p>Usada para focar em um determinado campo, como por exemplo: </p>
+    <label for="text"><input type="text" name="teste" placeholder="Esse elemento vai estar em foco" id="teste1"></label>
+
+    <h2>Pseudo classe: <code>:hover</code></h2>
+    <p>Usada para quando o ponteiro do mouse do usuário passa por cima de algum elemento, como por exemplo: </p>
+    <div>Passe o ponteiro do mouse aqui e me veja mudando de cor e ganhando um fundo</div>
+
+    <h2>Pseudo classe: <code>:visited</code></h2>
+    <p>Usada para mostrar para o usuário que aquele link já foi visitado, como por exemplo: </p>
+    <p>Acesse aqui o <a href="https://instagram.com/mrltheoriginal/" target="_blank" rel="external">meu Instagram</a></p>
+</body>
+</html>
