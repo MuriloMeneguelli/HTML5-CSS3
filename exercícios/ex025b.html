@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        div {
+            text-align: center;
+
+            background-color: bisque;
+            height: 300px;
+            width: 300px;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        div:hover {
+           
+            color: white;
+            justify-content: center;
+            background-color: black;
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste abaixo:</h1>
+    <p>Passe o mouse sobre o texto abaixo e veja a caixa mudando de cor, crescendo sua largura e altura.</p>
+    <div>
+       AQUI 
+       <p>Esse texto estava escondido, caso esteja lendo saiba que JESUS te ama!</p>
+    </div>
+</body>
+</html>
