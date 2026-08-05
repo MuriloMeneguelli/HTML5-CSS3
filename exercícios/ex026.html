@@ -4,14 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #551A8B;
+        }
+
+
+
+         a.normal::before {
+            content: "[LINK] ";
+            color: rgba(128, 128, 128, 0.479);
+        }
+
+        a#destaque::before {
+            content: '➡ ';
+            color: black;
+        }
+
+        a#destaque::after {
+            content: ' ⬅';
+            color: black;
+        }
+
+        a.teste::cue {
+            /*
+            Aprendi sobre o formato VTT e futuramente irei aprofundar meus conhecimentos sobre o pseudo elemento cue com a utilização do formato VTT*/
+
+            content: 'none';
+        }
+        
+    </style>
 </head>
 <body>
     <h1>Personalizado Link</h1>
     <ul>
+        <li><a href="https://github.com/murilomeneguelli/" target="_blank" rel="external" class="normal">Repositório do Github</a></li>
+        <li><a href="https://instagram.com/mrltheoriginal/" target="_blank" rel="external" id="destaque">Meu instagram</a></li>
+        <li><a href="https://youtube.com/@cursoemvideo" target="_blank" rel="external" class="normal">Canal do CursoemVídeo</a></li>
+        <li><a href="htpps://instagram.com/mrltheoriginal" target="_blank" rel="external" class="teste">Teste</a></li>
         
-        <li></li>
-        <li></li>
-        <li></li>  
      </ul>
 </body>
 </html>
