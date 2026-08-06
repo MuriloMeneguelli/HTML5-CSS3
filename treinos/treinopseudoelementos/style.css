@@ -1,6 +1,14 @@
 a {
     text-decoration: none;
+    
+}
 
+code.estilomdn {
+   background-color: grey;
+   border-radius: 4px;
+   padding: 2px 4px; 
+   font-weight: bold;
+   color: white;
 }
 
 a:hover {
@@ -8,10 +16,33 @@ a:hover {
 }
 
 a:visited {
-    color: blueviolet;
+    color: rgb(123, 38, 202);
+}
+
+a:active {
+    color: none;
+}
+
+a.depois::after {
+    content: ' [LINK]';
+    color: rgb(0, 0, 0);
 }
 
 
-a#destaque::after {
-    content:  [LINK];
+a.anteslink::before {
+    content: '[LINK ]';
+    color: black;
+}
+
+video::cue {
+    color: rgb(238, 255, 0);
+    font-size: 15px;
+}
+
+.abrev {
+    text-decoration: none;
+}
+
+.abrev:hover{
+    text-decoration: underline;
 }
