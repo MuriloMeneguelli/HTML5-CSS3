@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de caixas PT1</title>
+    <title>Modelo de caixas PT1 e PT2</title>
     <style>
-        main{
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1.teste {
+            background-color: grey;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 40px;
+            margin-bottom: 80px;
+            width: 110px;
+            height: 30px;
+            border: 5px solid black;
+        }
+
+        main {
+
             text-align: center;
             border: 10px solid rgb(255, 0, 0);
             border-radius: 70px;
             padding: 50px;
-            
-            
+
+
             color: white;
             background-color: black;
         }
+
+        main > h1 {
+            margin: 0px;
+            padding: 20px;
+            background-color: aqua;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1 class="teste">Olá, mundo!</h1>
 
 
     <main>
         <h1>TESTE</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quas earum eaque libero, autem placeat quia accusantium esse qui sequi quod sapiente officiis cum vero cupiditate! Sapiente nobis reiciendis hic!</p>
-        <p>Optio quos mollitia quisquam libero, enim numquam deserunt, id ipsum minima, tenetur ut laborum! Temporibus laborum harum consequuntur! Minus natus, nesciunt magni culpa facere harum praesentium porro libero deserunt facilis.</p>
-        <p>Nesciunt aliquid nihil deleniti sint dolorem enim porro accusamus quam sed? Unde repellat nihil, dolores magnam distinctio placeat nobis harum modi nulla velit vero ut ea labore explicabo, corporis maiores.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quas earum eaque libero, autem placeat quia
+            accusantium esse qui sequi quod sapiente officiis cum vero cupiditate! Sapiente nobis reiciendis hic!</p>
+        <p>Optio quos mollitia quisquam libero, enim numquam deserunt, id ipsum minima, tenetur ut laborum! Temporibus
+            laborum harum consequuntur! Minus natus, nesciunt magni culpa facere harum praesentium porro libero deserunt
+            facilis.</p>
+        <p>Nesciunt aliquid nihil deleniti sint dolorem enim porro accusamus quam sed? Unde repellat nihil, dolores
+            magnam distinctio placeat nobis harum modi nulla velit vero ut ea labore explicabo, corporis maiores.</p>
 
-        
+
     </main>
+
+    <p><a href="#">Teste</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia molestiae nostrum, ab nihil minima? Quasi enim deserunt nulla fuga earum ad aperiam minima neque est sunt qui, nobis consequuntur!</p>
 </body>
+
 </html>
