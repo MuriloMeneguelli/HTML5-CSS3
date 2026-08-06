@@ -23,7 +23,7 @@ a:active {
     color: none;
 }
 
-a.depois::after {
+a.depoislink::after {
     content: ' [LINK]';
     color: rgb(0, 0, 0);
 }
