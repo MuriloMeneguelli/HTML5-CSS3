@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag´s </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+
+            
+            
+    
+            background-color: rgba(173, 173, 173, 0.685);
+            border-bottom-left-radius:20px ;
+            border-bottom-right-radius: 20px;
+        }
+
+        header > h1 {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+        header > .tamanho-menor {
+            font-size: 1.1rem;
+        }
+
+        nav {
+            padding-bottom: 10px;
+        }
+        
+        nav > a {
+            
+            margin-left: 13px;
+        }
+
+        nav > a:hover {
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.205);
+            background-color: rgb(156, 50, 50);
+
+            color: rgb(255, 255, 255);
+
+            padding: 5px;
+        }
+
+        header>h1>abbr.onesp {
+            color: rgb(156, 50, 50);
+            text-decoration: none;
+        }
+
+        main {
+            margin-top: 40px;
+
+            
+            background-color: rgba(173, 173, 173, 0.685);
+            border-radius: 10px;
+            padding: 10px 10px 40px 10px ;
+        }
+
+        
+
+        section > .focustosee {
+            font-family: Inter;
+            font-weight: 650;
+        }
+
+        .siglas {
+            text-decoration: none;
+            color: chocolate;
+        }
+
+        .mencao {
+            text-decoration: none;
+            color: rgb(85, 144, 184);
+        }
+
+        .paginacao {
+            text-decoration: none;
+            
+        }
+        
+        article.showed {
+            display: none;
+            padding-top: 15px;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+ 
+        h1.focustosee:focus-within + article.showed {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bem vindo a <abbr title="Orgulho Notíciario do Estado de São Paulo" class="onesp">ONESP</abbr></h1>
+        <nav class="tamanho-menor">
+            <a href="#">Quem somos</a>
+            <a href="#">Notícias</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="focustosee" tabindex="0">Porque a <abbr title="Companhia de Saneamento Básico do Estado de São Paulo" class="siglas">SABESP</abbr> está...</h1>
+            <article class="showed">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, hic iusto non neque ullam sunt
+                    reiciendis quasi et rerum blanditiis commodi autem cumque odit assumenda unde suscipit est, minus
+                    labore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eaque, enim id reprehenderit
+                    ipsam pariatur repellendus consequuntur modi dolores, numquam corrupti quam ipsum beatae!
+                    Necessitatibus commodi culpa soluta aspernatur ducimus?</p>
+                <p>Provident nesciunt quisquam facere aliquam officia totam dignissimos aut voluptatum tenetur
+                    reiciendis, possimus quasi placeat qui expedita, perspiciatis assumenda eius? Repudiandae earum
+                    aperiam eaque! Pariatur adipisci ipsam consequatur nostrum tempore?</p>
+            </article>
+        </section>
+        <section>
+            <h1 class="focustosee" tabindex="0"><a href="https://instagram.com/brunoguimaraes/" class="mencao" target="_blank" rel="external">Bruno Guimarães</a> erra
+                penalti e...</h1>
+        </section>
+        <section>
+            <a href="ACNUR.html" class="paginacao">
+                <h1 class="focustosee">O incrível trabalho da <abbr title="Alto Comissariado das Nações Unidas para os Refugiados" class="siglas">ACNUR</abbr>...</h1>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por <a href="https://github.com/murilomeneguelli/"></a>Murilo Meneguelli</p>
+    </footer>
+</body>
+
+</html>
